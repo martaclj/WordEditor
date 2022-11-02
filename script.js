@@ -9,6 +9,10 @@ function toggleUnderline() {
 function toggleItalic() {
   el.classList.toggle("italic");
 }
-function toggleBold() {}
-function toggleMonospace() {}
+function toggleBold() {
+  el.classList.toggle("bold");
+}
+function toggleMonospace() {
+  el.classList.toggle("mono");
+}
 function removeFormat() {}
