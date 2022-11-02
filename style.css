@@ -1,0 +1,23 @@
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.mono {
+  font-family: monospace;
+}
+
+img {
+  width: 250px;
+}
+
+body {
+  height: 500px;
+}
