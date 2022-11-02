@@ -15,4 +15,7 @@ function toggleBold() {
 function toggleMonospace() {
   el.classList.toggle("mono");
 }
-function removeFormat() {}
+function removeFormat() {
+  el.classList.remove("underline","italic","bold","mono");
+  el.style.color="black";
+}
