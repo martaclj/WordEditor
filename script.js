@@ -6,7 +6,9 @@ function setColor() {
 function toggleUnderline() {
   el.classList.toggle("underline");
 }
-function toggleItalic() {}
+function toggleItalic() {
+  el.classList.toggle("italic");
+}
 function toggleBold() {}
 function toggleMonospace() {}
 function removeFormat() {}
